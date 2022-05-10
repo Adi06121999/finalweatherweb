@@ -77,10 +77,11 @@ export default function App() {
             <p className="temperature">
               <h1>{Math.round(temp)}°C</h1></p>
 
-            <p className="title">Humidity: {humidity}</p>
+            <p className="title">Humidity: <b>{humidity}</b></p>
             <p className="title">Description: <h2>{description}</h2></p><br/>
 
             <h1>Thanks for Searching on our site</h1>
+            <h2>Do Visit Again</h2>
           </div>
         )}
       </div>
